@@ -199,6 +199,18 @@ void BOARD_InitPins(void) {
                                                  Pull / Keep Select Field: Keeper
                                                  Pull Up / Down Config. Field: 100K Ohm Pull Down
                                                  Hyst. Enable Field: Hysteresis Disabled */
+
+  IOMUXC_SetPinConfig(
+      IOMUXC_GPIO_SD_05_GPIO2_IO05,           /* GPIO_SD_05 PAD functional properties : */
+      0x01B0A0U);                             /* Slew Rate Field: Slow Slew Rate
+                                                 Drive Strength Field: R0/4
+                                                 Speed Field: fast(150MHz)
+                                                 Open Drain Enable Field: Open Drain Disabled
+                                                 Pull / Keep Enable Field: Pull/Keeper Enabled
+                                                 Pull / Keep Select Field: Pull
+                                                 Pull Up / Down Config. Field: 100K Ohm Pull Up
+                                                 Hyst. Enable Field: Hysteresis Enabled */
+
 }
 
 /***********************************************************************************************************************
