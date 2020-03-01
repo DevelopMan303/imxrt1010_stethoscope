@@ -3,6 +3,8 @@
  *
  *  Created on: 22.12.2019
  *      Author: cons
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
  */
 
 #include <math.h>

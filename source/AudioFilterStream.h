@@ -2,6 +2,7 @@
  * AudioFilterStream.h
  *
  *      Author: cons
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 #ifndef AUDIOFILTERSTREAM_H_
 #define AUDIOFILTERSTREAM_H_
